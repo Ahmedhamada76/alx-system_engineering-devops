@@ -1,2 +1,3 @@
 #!/bin/bash
-cat -n | grep
+#cat -n | grep
+paste -d, - - | cut -d, -f1
